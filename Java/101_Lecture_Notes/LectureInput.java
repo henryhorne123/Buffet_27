@@ -17,9 +17,9 @@ class LectureInput{
         
 
         System.out.println(menuHeading2);
-        System.out.println(menu1+cost1);
-        System.out.println(menu2+cost2);
-        System.out.println(menu3+cost3);
+        System.out.println(menu1+itemCost1);
+        System.out.println(menu2+itemCost2);
+        System.out.println(menu3+itemCost3);
         System.out.println();
         System.out.println(name1);
         
@@ -28,14 +28,15 @@ class LectureInput{
         System.out.println();
 
         System.out.println("How many Riley Kokot's");
-        double item1Number = sc.nextDouble();
+        int item1Number = sc.nextInt();
         
         System.out.println("How many Goh Yoshisomethingelse's");
-        double item3Number = sc.nextLine();
+        int item3Number = sc.nextInt();
 
         System.out.println("How many Henry Horne's");
-        double item2Number = sc.nextLine();
+        int item2Number = sc.nextInt();
         
+    
         double item1TotalCost = (item1Number*itemCost1);  
         double item2TotalCost = (item2Number*itemCost2);
         double item3TotalCost = (item3Number*itemCost3);
@@ -45,6 +46,30 @@ class LectureInput{
         System.out.println(item2TotalCost);
         System.out.println(item3TotalCost);
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~");
+        double subTotal = (item1TotalCost+item2TotalCost+item3TotalCost);
+        System.out.println("Sub Total:"+subTotal);
+
+        System.out.println();
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("What percent would you like to tip?");
+        int tip = sc.nextInt();
+        double tipPercent = (tip*0.1);
+        double tipTotal = (tipPercent*subTotal);
+        double totalFinal = (tipTotal+subTotal);
+        System.out.println("Tip:"+tipTotal);
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("Total:"+totalFinal);
+        
+
+
+
+
+
+
+
+
+
+
         
 
 
