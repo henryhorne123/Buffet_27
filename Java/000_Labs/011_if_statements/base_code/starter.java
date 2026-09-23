@@ -8,7 +8,7 @@ import java.util.Scanner;
 class starter {
 	public static void main(String args[]) {
 
-		int num1 = 2;
+		int num1 = 13;
 		int num2 = 2;
 		
 		boolean bool1 = num1 != num2;
