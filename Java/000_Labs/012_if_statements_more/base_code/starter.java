@@ -15,14 +15,14 @@ class starter {
 		System.out.print("Please input the second number: ");
 		int number2 = sc.nextInt();
 		
-		boolean equal =  number1 == number2;
+		boolean bool2 =  number1 == number2;
 		boolean different = number1 != number2;
 
-		if(number1 == number2){
+		if(bool2 == true){
 			System.out.println("Your numbers are equal");
 		}
 
-		if(number1 != number2){
+		if(bool2 == false){
 			System.out.println("Your numbers are different");
 		}
 		

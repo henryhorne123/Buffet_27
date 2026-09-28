@@ -8,8 +8,20 @@ import java.util.Random;
 
 class starter {
 	public static void main(String args[]) {
-		// the string "I love to learn coding remotely." will appear in
-		// the command window when you compile and run this program.
-		System.out.print("I love to learn coding remotely."); 
+		Scanner sc = new Scanner(System.in);
+		int randnum = (int)(Math.random()*1000);
+
+		System.out.print("Please guess a number 0 through 1000: ");
+		int guess = sc.nextInt();
+
+		if(guess == randnum){
+			System.out.println("You got it right!");
+		}
+
+		else{
+			System.out.println("Wrong");
+		}
+
+		System.out.println("The number was: "+randnum);
 	}
 }
