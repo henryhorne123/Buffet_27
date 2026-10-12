@@ -11,7 +11,7 @@ class starter {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("Do you want to be a wizard, warrior, or rogue?");
-		String class = sc.nextLine();
+		String playerclass = sc.nextLine();
 
 		if(playerclass.equals("Wizard") || playerclass.equals("wizard") ){
 			System.out.println("You picked wizard");

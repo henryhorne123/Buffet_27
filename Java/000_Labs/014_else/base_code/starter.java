@@ -15,7 +15,7 @@ class starter {
 		int guess = sc.nextInt();
 
 		if(guess == randnum){
-			System.out.println("You got it right!");
+			System.out.println("You got it right! ");
 		}
 
 		else{
