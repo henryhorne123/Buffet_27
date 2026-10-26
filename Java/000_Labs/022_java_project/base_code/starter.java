@@ -12,6 +12,10 @@ class starter {
 		Scanner sc = new Scanner(System.in);
 		int money1 = 100;
 		System.out.println("You have 100 dollars to wager on slots!");
+
+		System.out.println("Do you want to play the game [Y/y,Y/yes||N/n,N/no]");
+		String cont = sc.nextLine();
+		
 		
 		while(true){
 

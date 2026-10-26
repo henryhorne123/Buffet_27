@@ -58,28 +58,54 @@ class starter {
 		System.out.println("Please input another integer");
 		int num2 = sc.nextInt();
 		x=0;
-		y=0;
+		y = 0;
+		int i = 0;
 		String star1 = new String("*");
 
-	while(y<num2-1){
-		System.out.println("");
-		y++;
+		while (y <= num2) {
+            int j = 1;
+
+			 while (i <= num2-1) {
+                System.out.println("");
+                i++;
+           }
+		
+            while (j <= num2) {
+                System.out.print("*");
+                j++;
+            }
+
+			 while (i <= y) {
+                System.out.println("");
+                i++;
+            }
+            
+
+            System.out.println(" ");
+            y++;
+        }
+        
+        System.out.println();
+
+	// while(y<num2-1){
+	// 	System.out.println("");
+	// 	y++;
 	
-	
-		while(x<num2-1){
-			System.out.print("");
-			x++;
-	}
-		while(x<num2-1){
-			System.out.print(star1);
-			star1 = (star + "*");
-		}
+	// 	while(x<num2){
+	// 		System.out.print("");
+	// 		x++;
+	// }
+	// x = 0;
+	// 	while(x<num2){
+	// 		System.out.print(star1);
+	// 		star1 = (star + "*");
+	// 	}
 		
 		
-		x = 0;
+	// 	x = 0;
 
 
 	
-	}
+	// }
 	}
 }
