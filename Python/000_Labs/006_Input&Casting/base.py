@@ -1,0 +1,6 @@
+num1 = input("Pick a number: ")
+num2 = input("Pick another number: ")
+ans = (int(num1)*int(num2))
+print("The first number is:"+num1)
+print("The second number is:"+num2)
+print("The answer is:"+str(ans))
