@@ -1,0 +1,71 @@
+import random
+list = [1,2,3,4,5,6,7,8,9,10]
+num = input("How many numbers would you like? (1-10)")
+num = int(num)
+if num == 1:
+    print(random.randrange(0,10), end=",")
+elif num == 2:
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+elif num == 3:
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+elif num == 4:
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+elif num == 5:
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    
+elif num == 6:
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+elif num == 7:
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+elif num == 8:
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+elif num == 9:
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+elif num == 10:
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+    print(random.randrange(0,10), end=",")
+print(" Those are you numbers")
