@@ -1,6 +1,11 @@
 import requests
+import random
 joke = requests.get("https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=single").json()
-#joke2Part = requests.get("https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=twopart").json()
+#joke2Part = requests.get("https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=twopart").json(
+jokenum = int(input("How many jokes would you like to hear? "))
+
+for a in range(0, jokenum):
+    print(joke["joke"])
 
 # Jokes with 1 part just have a joke
 # joke["joke"] -> References the String of the joke itself
